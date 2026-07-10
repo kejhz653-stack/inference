@@ -7,6 +7,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-tiny",
@@ -24,6 +32,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-tiny.en",
@@ -41,6 +57,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-base",
@@ -58,6 +82,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-base.en",
@@ -75,6 +107,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-small",
@@ -92,6 +132,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-small.en",
@@ -109,6 +157,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-medium",
@@ -126,6 +182,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-medium.en",
@@ -143,6 +207,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-large-v3",
@@ -164,6 +236,14 @@
       "audio2text"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "openai/whisper-large-v3-turbo",
@@ -185,6 +265,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "BELLE-2/Belle-distilwhisper-large-v2-zh",
@@ -202,6 +290,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "BELLE-2/Belle-whisper-large-v2-zh",
@@ -219,6 +315,14 @@
       "audio2text"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "transformers",
+        "accelerate",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "BELLE-2/Belle-whisper-large-v3-zh",
@@ -241,6 +345,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-tiny"
@@ -258,6 +368,12 @@
     ],
     "multilingual": false,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-tiny.en-mlx"
@@ -275,6 +391,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-base-mlx"
@@ -292,6 +414,12 @@
     ],
     "multilingual": false,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-base.en-mlx"
@@ -309,6 +437,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-small-mlx"
@@ -326,6 +460,12 @@
     ],
     "multilingual": false,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-small.en-mlx"
@@ -343,6 +483,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-medium-mlx"
@@ -360,6 +506,12 @@
     ],
     "multilingual": false,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-medium.en-mlx"
@@ -377,6 +529,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-large-v3-mlx"
@@ -394,6 +552,12 @@
     ],
     "multilingual": true,
     "engine": "mlx",
+    "virtualenv": {
+      "packages": [
+        "mlx-whisper",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "mlx-community/whisper-large-v3-turbo"
@@ -422,6 +586,14 @@
       "merge_vad": true,
       "merge_length_s": 15
     },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "FunAudioLLM/SenseVoiceSmall",
@@ -449,6 +621,14 @@
     },
     "default_transcription_config": {
       "batch_size_s": 300
+    },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
     },
     "model_src": {
       "huggingface": {
@@ -479,6 +659,14 @@
       "hotword": "",
       "batch_size_s": 300
     },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "JunHowie/speech_paraformer-large-contextual_asr_nat-zh-cn-16k-common-vocab8404",
@@ -506,6 +694,14 @@
     },
     "default_transcription_config": {
       "batch_size_s": 300
+    },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
     },
     "model_src": {
       "huggingface": {
@@ -536,6 +732,14 @@
     "default_transcription_config": {
       "batch_size_s": 300
     },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "JunHowie/speech_paraformer-large-vad-punc-spk_asr_nat-zh-cn",
@@ -564,6 +768,14 @@
     "default_transcription_config": {
       "hotword": "",
       "batch_size_s": 300
+    },
+    "virtualenv": {
+      "packages": [
+        "funasr==1.2.7",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
     },
     "model_src": {
       "huggingface": {
@@ -618,6 +830,26 @@
       "text2audio_voice_cloning"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "librosa",
+        "tiktoken",
+        "lightning>=2.0.0",
+        "hydra-core>=1.3.2",
+        "inflect",
+        "conformer",
+        "diffusers==0.29.0",
+        "gdown",
+        "pyarrow",
+        "HyperPyYAML",
+        "onnxruntime>=1.16.0",
+        "pyworld>=0.3.4",
+        "wetext==0.0.9",
+        "transformers==4.51.3",
+        "#system_numpy#",
+        "#system_torch#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "FunAudioLLM/CosyVoice-300M",
@@ -640,6 +872,26 @@
       "text2audio_zero_shot"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "librosa",
+        "tiktoken",
+        "lightning>=2.0.0",
+        "hydra-core>=1.3.2",
+        "inflect",
+        "conformer",
+        "diffusers==0.29.0",
+        "gdown",
+        "pyarrow",
+        "HyperPyYAML",
+        "onnxruntime>=1.16.0",
+        "pyworld>=0.3.4",
+        "wetext==0.0.9",
+        "transformers==4.51.3",
+        "#system_numpy#",
+        "#system_torch#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "FunAudioLLM/CosyVoice-300M-SFT",
@@ -662,6 +914,26 @@
       "text2audio_zero_shot"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "librosa",
+        "tiktoken",
+        "lightning>=2.0.0",
+        "hydra-core>=1.3.2",
+        "inflect",
+        "conformer",
+        "diffusers==0.29.0",
+        "gdown",
+        "pyarrow",
+        "HyperPyYAML",
+        "onnxruntime>=1.16.0",
+        "pyworld>=0.3.4",
+        "wetext==0.0.9",
+        "transformers==4.51.3",
+        "#system_numpy#",
+        "#system_torch#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "FunAudioLLM/CosyVoice-300M-Instruct",
@@ -728,6 +1000,27 @@
       "text2audio_voice_cloning"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "loguru",
+        "natsort",
+        "loralib",
+        "ormsgpack",
+        "cachetools",
+        "silero-vad",
+        "vector-quantize-pytorch>=1.14.24,<=1.17.3",
+        "einops",
+        "lightning>=2.0.0",
+        "hydra-core>=1.3.2",
+        "omegaconf~=2.3.0",
+        "matplotlib",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "fishaudio/fish-speech-1.5",
@@ -751,6 +1044,24 @@
       "text2audio_voice_cloning"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "torchdiffeq",
+        "x_transformers>=1.31.14",
+        "pypinyin",
+        "tomli",
+        "vocos",
+        "librosa",
+        "jieba",
+        "pydub",
+        "soundfile",
+        "cached_path",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "SWivid/F5-TTS",
@@ -774,6 +1085,15 @@
       "text2audio_voice_cloning"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "f5-tts-mlx",
+        "vocos-mlx",
+        "soundfile",
+        "tomli",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "lucasnewman/f5-tts-mlx",
@@ -793,6 +1113,33 @@
     ],
     "multilingual": false,
     "language": "EN",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-English",
@@ -812,6 +1159,33 @@
     ],
     "multilingual": false,
     "language": "EN",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-English-v2",
@@ -831,6 +1205,33 @@
     ],
     "multilingual": false,
     "language": "EN",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-English-v3",
@@ -850,6 +1251,33 @@
     ],
     "multilingual": false,
     "language": "FR",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-French",
@@ -869,6 +1297,33 @@
     ],
     "multilingual": false,
     "language": "JP",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-Japanese",
@@ -888,6 +1343,33 @@
     ],
     "multilingual": false,
     "language": "ES",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-Spanish",
@@ -907,6 +1389,33 @@
     ],
     "multilingual": false,
     "language": "ZH",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-Chinese",
@@ -926,6 +1435,33 @@
     ],
     "multilingual": false,
     "language": "KR",
+    "virtualenv": {
+      "packages": [
+        "cached_path",
+        "unidic-lite",
+        "cn2an",
+        "mecab-python3",
+        "num2words",
+        "pykakasi",
+        "fugashi",
+        "g2p_en",
+        "anyascii",
+        "gruut[de,es,fr]",
+        "g2pkk",
+        "jamo",
+        "jieba",
+        "pypinyin",
+        "nltk",
+        "inflect",
+        "six",
+        "librosa",
+        "soundfile",
+        "transformers",
+        "#system_torch#",
+        "#system_torchaudio#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "myshell-ai/MeloTTS-Korean",
@@ -944,6 +1480,15 @@
       "text2audio_zero_shot"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "kokoro>=0.7.15",
+        "misaki[en,zh]>=0.7.15",
+        "soundfile",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "hexgrad/Kokoro-82M"
@@ -996,6 +1541,25 @@
       "text2audio_zero_shot"
     ],
     "multilingual": true,
+    "virtualenv": {
+      "packages": [
+        "WeTextProcessing",
+        "langdetect",
+        "pydub",
+        "pyloudnorm",
+        "librosa",
+        "einops",
+        "matplotlib",
+        "six",
+        "pyyaml",
+        "transformers",
+        "numba",
+        "more-itertools",
+        "tiktoken",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "ByteDance/MegaTTS3",
@@ -1018,6 +1582,15 @@
       "text2audio_zero_shot"
     ],
     "multilingual": false,
+    "virtualenv": {
+      "packages": [
+        "kokoro>=0.7.15",
+        "misaki[en,zh]>=0.7.15",
+        "soundfile",
+        "#system_torch#",
+        "#system_numpy#"
+      ]
+    },
     "model_src": {
       "huggingface": {
         "model_id": "hexgrad/Kokoro-82M-v1.1-zh"
